@@ -8,6 +8,7 @@ It demonstrates skills relevant for a Business Analyst role: data cleaning, tran
 - Fields include Customers, Products, Regions, Sales, Profit, Quantity, and Order Dates.  
 
 ## Project Structure
+```
 sql-sales-dashboard/
 ├── README.md
 ├── data/
@@ -28,6 +29,7 @@ sql-sales-dashboard/
 │   └── screenshots/
 └── diagrams/
     └── schema_ERD.png
+```
 
 ## Key Queries & Insights
 - Monthly sales and profit trends  
