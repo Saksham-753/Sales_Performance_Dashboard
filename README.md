@@ -9,31 +9,25 @@ It demonstrates skills relevant for a Business Analyst role: data cleaning, tran
 
 ## Project Structure
 sql-sales-dashboard/
-│
-├── README.md                  # Project overview and documentation
-│
-├── data/                      # Datasets
-│   └── superstore_sales.csv   # Raw dataset (or link in README if large)
-│
-├── schema/                    # Database schema scripts
-│   └── create_tables.sql      # CREATE TABLE statements
-│   └── load_data.sql          # (Optional) insert and transformation scripts
-│
-├── queries/                   # Core analysis queries
+├── README.md
+├── data/
+│   └── superstore_sales.csv
+├── schema/
+│   ├── create_tables.sql
+│   └── load_data.sql
+├── queries/
 │   ├── monthly_sales.sql
 │   ├── top_customers.sql
 │   ├── product_performance.sql
 │   ├── region_performance.sql
 │   ├── profitability_analysis.sql
 │   └── yoy_growth.sql
-│
-├── results/                   # Outputs from queries
+├── results/
 │   ├── monthly_sales.csv
 │   ├── top_customers.csv
-│   └── screenshots/           # Screenshots from DB client/dashboards
-│
-└── diagrams/                  # Documentation visuals
-    └── schema_ERD.png         # Entity Relationship Diagram
+│   └── screenshots/
+└── diagrams/
+    └── schema_ERD.png
 
 ## Key Queries & Insights
 - Monthly sales and profit trends  
